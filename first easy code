@@ -1,0 +1,10 @@
+import math
+
+x = float(input("Ingrese el valor de x: "))
+y = float(input("Ingrese el valor de y: "))
+
+if 4 - 3*x**2 >= 0 and 5 - 6*y**3 > 0:
+  c = math.sqrt((4 - 3*x**2)/(5 - 6*y**3))
+  print("El valor de c es: ", c)
+else:
+  print("La expresión dentro de la raíz cuadrada no es válida.")
